@@ -1,4 +1,4 @@
-group 'com.aartiya.freshchat_sdk'
+group 'com.freshchat.consumer.sdk.flutter'
 version '1.0'
 
 buildscript {
