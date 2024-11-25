@@ -1,4 +1,4 @@
-group 'com.freshchat.consumer.sdk.flutter'
+group 'com.aartiya.freshchat_sdk'
 version '1.0'
 
 buildscript {
@@ -23,6 +23,9 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    
+    namespace "com.freshchat.consumer.sdk.flutter"
+
     compileSdkVersion 34
 
     defaultConfig {
